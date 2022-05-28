@@ -25,7 +25,7 @@ The common people will use an application on their mobile to submit photos of pe
 
 Prerequisites
 
-$ git clone 
+$ git clone git@github.com:harshi-21/Finding-missing-person.git
 
 $ cd Finding-missing-person
 
