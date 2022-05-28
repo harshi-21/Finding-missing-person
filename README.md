@@ -18,3 +18,14 @@ The common people will use an application on their mobile to submit photos of pe
  We use  **KNN Algorithm** to match the case images and user submitted images.
  
  ![image](https://user-images.githubusercontent.com/105723816/170830428-d53c9aa3-6e66-4309-9b6e-b12b76de9746.png)
+
+
+## HOW TO RUN
+**With Docker**
+Prerequisites
+$ git clone 
+$ cd Finding-missing-person
+$ docker-compose up --build
+$ cd app
+$ pip install -r requirements.txt --no-cache-dir
+$ python3 login_window.py
