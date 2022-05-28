@@ -22,10 +22,40 @@ The common people will use an application on their mobile to submit photos of pe
 
 ## HOW TO RUN
 **With Docker**
+
 Prerequisites
+
 $ git clone 
+
 $ cd Finding-missing-person
+
 $ docker-compose up --build
+
 $ cd app
+
 $ pip install -r requirements.txt --no-cache-dir
+
 $ python3 login_window.py
+ 
+ **At this point you'll see a window like this Login Window**
+ 
+![image](https://user-images.githubusercontent.com/105723816/170830623-2a7a3801-1ba5-46c9-8d30-8ddc5d1584b4.png)
+
+Default username: admin Default password: admin
+
+After logging in you'll see the main screen through which you'll be able to submit cases.
+
+ 
+**To run the mobile application:**
+
+$ cd mobile_app
+
+$ python ui.py
+
+After that you'll see a window like this
+
+![image](https://user-images.githubusercontent.com/105723816/170830738-b9c8e813-0e7f-4cec-ab64-379df91a7302.png)
+
+
+
+ 
